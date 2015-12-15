@@ -12,7 +12,7 @@
   <description>Unzips zip files</description>
 
   <js-module src="zip.js" name="Zip">
-    <clobbers target="zip" />
+    <clobbers target="window.Zip" />
   </js-module>
 
   <platform name="android">
